@@ -1,0 +1,44 @@
+header
+{
+    display :flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color:#ff5a00;
+    color:white;
+    padding-top:20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+header div
+{
+    align-items: center;
+
+}
+.div2-header
+{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    gap:20px
+}
+header a
+{
+    color:white;
+    text-decoration: none;
+}
+.div1-header em
+{
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+.div2-header a
+{
+    font-weight: bold;
+
+}
+.login
+{
+    border: solid white 2px;
+    border-radius: 8px;
+    padding:10px
+}

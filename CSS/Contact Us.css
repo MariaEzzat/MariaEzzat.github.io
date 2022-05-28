@@ -1,0 +1,50 @@
+#submit
+{
+color:white;
+background-color:green;
+}
+#div1
+{
+    float: right;
+    background-color:lightgray;
+}
+#fieldset
+{
+    box-shadow: 5px 5px 5px 5px rgb(112,112,112);
+    width: 80%;
+    height: 80%;
+    float: center;
+    margin:auto
+    
+}
+#all
+{
+    float: center;
+}
+/**modified content**/
+.joinus, .joinus div
+{
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:50%;
+    
+
+}
+.joinus div
+{
+    justify-content: flex-start;
+}
+
+.joinus-div1
+{
+    border-bottom: solid  #ff5a00 5px;
+}
+.joinus-div2:hover
+{
+    border-bottom:solid 5px #ff5a00;
+    padding-bottom: 17px;
+    cursor: pointer;
+
+}

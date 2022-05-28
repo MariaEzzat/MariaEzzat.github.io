@@ -1,0 +1,378 @@
+body
+{
+
+}
+#home-container
+{
+    width:100%
+}
+section
+{
+    margin-top:150px
+}
+h1
+{
+    font-size: xx-large;
+}
+p
+{
+    font-size: large;
+}
+
+
+/********************************************/
+
+/***section 1 styling   main section*******/
+.sec1
+{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    background-color:  #ffeee5;
+    margin:0px;
+}
+
+.sec1 img
+{
+    transform:rotate(180deg)
+}
+.gps
+{
+    position: absolute;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+
+}
+.gps div
+{
+    display:flex;
+    justify-content: space-around;
+    gap:20px;
+    align-items: center;
+}
+.gps input
+{
+    width:500px;
+    height:40px;
+    border-radius: 8px;
+}
+.gps button
+{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #ff5a00;
+    border-radius: 8px;
+    border :#ff5a00;
+    color:white;
+    font-size:large
+}
+/***********************************************/
+
+/********************* styling sec2***********************/
+.sec2
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    margin-top:70px
+}
+.sec2 p
+{
+    width:350px;
+    text-align: center;
+}
+.sec2 h1
+{
+    margin: 0px;
+}
+.downloadLinks img 
+{
+    width:150px;
+    height:50px
+
+}
+.downloadLinks
+{
+    display: flex;
+    gap:20px;
+}
+.market-rest
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.market-rest-div
+{
+    max-width:500px;
+    display:flex;
+    align-items: stretch;
+    gap:25px;
+    border: solid rgb(224, 212, 212) 0.25px;
+    box-shadow: gray 0.5px 0.5px 0.5px 0.5px;
+}
+.market-rest-div  div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.div-card
+{
+    width:55%;
+}
+.img-card1
+{
+    background-color: #f4aa33;
+    width:45%;             /*#ff5a00*/
+}
+.img-card2
+{
+    background-color: #ff5a00;
+    width:45%;
+
+}
+.img-card1 img , .img-card2 img
+{
+    width:100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.market-rest-div div p
+{
+    width:80%;
+    text-align: right;
+    padding:0px;
+    font-size: large;
+    margin: 0px;
+    line-height: 1.25;
+}
+.market-rest-div div h3 
+{
+    width:90%;
+    text-align: right;
+    color:#ff5a00;
+    padding:0px;
+}
+.market-rest-div div h2
+{
+    width:90%;
+    text-align:right;
+    padding:0px;
+    margin-top:10px;
+}
+/***************************************************/
+
+/****** styling of section 3*/
+.sec3
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec3 p, .sec3 h1 , .sec3 a,.sec3>div
+{
+    margin:0px;
+    margin-top: 15px;
+}
+
+.sec3 > div
+{
+    display:flex;
+    flex-direction: row-reverse;
+    gap:30px;
+}
+.sec3-card
+{
+    display:flex;
+    width:450px;
+
+
+}
+.sec3-card div
+{
+    width:60%;
+    padding-right:20px;
+    text-align: right;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sec3-card-img 
+{
+    width:40%;
+    border-radius: 8px;
+}
+.sec3-card-img img
+{
+    width:100%;
+    height:100%
+}
+
+.sec3-card div p
+{
+    width:90%;
+    padding:0px;
+}
+.btn
+{
+    background-color: #ff5a00;
+    color:#fff;
+    font-weight: 400px;
+    text-align:center;
+    padding:15px;
+    font-size: large;
+    border-radius: 10px;
+    border-color: #ff5a00;
+    text-decoration: none;
+}
+/**************************************************************/
+/****** styling of section 4***/
+.sec4
+{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    gap:40px
+}
+.sec4-card-img img
+{
+    width:100%;
+    height:100%;
+}
+.sec4-card-img
+{
+    width:400px;
+    height:400px;
+}
+.sec4-div2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/********************************************************/
+/**** styling of footer of the page **/
+
+footer
+{
+    background-color: #262626;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer header
+{
+    color:#999;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid rgb(139, 131, 131) 0.0025px;
+    background-color: inherit;
+}
+footer header , footer main, footer footer
+{
+    width:80%
+}
+footer header a
+{
+    text-decoration: none;
+    color:#999
+}
+footer header a:hover
+{
+    color:#ff5a00
+}
+footer main
+{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+footer main div
+{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: flex-end;
+    color: white;
+}
+footer main div a
+{
+    color:white
+}
+footer main div h3
+{
+    text-align: right;
+    color:#999
+}
+a
+{
+    text-decoration: none;
+    font-weight:bold
+}
+.others
+{
+    color:#999
+}
+.social-media
+{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+footer footer
+{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color:white;
+    
+}
+
+
+/*************************************************/
+/************overing****************/
+#overing
+
+{
+    display:none;
+    width:100%;
+    height:100%;
+    background-color: #999;
+    opacity: 0.4;
+    position: fixed;
+    top:0px;
+    left:0px;
+    z-index:2;
+}
+#login-form-container
+{
+    position: absolute;
+    z-index:3;
+    top:30px;
+    left:30%;
+
+}
+#homePage
+{
+    position: fixed;
+}
+/********************************************/

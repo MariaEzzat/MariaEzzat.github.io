@@ -1,0 +1,143 @@
+#submit
+{
+color:white;
+background-color:green;
+}
+#fieldset
+{
+    box-shadow: 5px 5px 5px 5px rgb(112,112,112);
+    width: 80%;
+    height: 80%;
+    float: center;
+    margin:auto;
+    
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5
+{
+   
+    width: 19.5%; 
+}
+
+.Notatall,
+.Slightly,
+.Moderately,
+.Quite,
+.Extremely
+{
+    width: 19.5%;
+}
+#low
+{
+float:left;
+}
+#high
+{
+float:right;
+}
+
+#btn1
+{
+    width:19.5%;
+    
+}
+#btn2
+{
+    width:19.5%;
+  
+}
+#btn3
+{
+    width:19.5%;
+    
+}
+#btn4
+{
+    width:19.5%;
+    
+}
+#btn5
+{
+    width:19.5%;
+  
+}
+
+#Notatall
+{
+    float: left;
+}
+#Extremely
+{
+    float: right;
+}
+
+#bttn0
+{
+    width: 8.7%;
+    
+}
+#bttn1
+{
+    width:8.7%;
+    
+}
+#bttn2
+{
+    width: 8.7%;
+    
+}
+#bttn3
+{
+    width:8.7%;
+    
+}
+#bttn4
+{
+    width:8.7%;
+   
+}
+#bttn5
+{
+    width:8.7%;
+   
+}
+#bttn6
+{
+    width:8.7%;
+    
+}
+#bttn7
+{
+    width:8.7%;
+    
+}
+#bttn8
+{
+    width: 8.7%;
+    
+}
+#bttn9
+{
+    width:8.7%;
+
+}
+#bttn10
+{
+    width:8.7%;
+  
+}
+/*****modefied content*********/
+.clicked
+{
+    background-color: gray;
+
+
+}
+.notClicked
+{
+    background-color: aliceblue;
+}
+
